@@ -4,15 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Golden Hinde</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style type="text/css">
+        h1, h2{
+            text-align: center;
+        }
+        .div1{
+            position: absolute;
+            top: 15%;
+            left: 5%;
+            width: 30%;
+            padding: 15px;
+            border: 3px dotted darkgreen;
+            border-radius: 70px;
+            background-image: url('../img/background1.jpg');
+            background-color: lightblue;
+        }
+        .div2{
+            position: absolute;
+            top: 28%;
+            right: 8%;
+            width: 20%;
+            padding: 15px;
+            border: 3px dotted darkgreen;
+            border-radius: 40px;
+            background-image: url('../img/background1.jpg');
+            background-color: lightblue;
+        }
+        .img1{
+            position: absolute;
+            bottom: 50px;
+            left: 27%;
+            width: 50%;
+            border: 3px dotted darkgreen;
+            border-radius: 20px;
+            z-index: -10;
+        }
+        .bottom{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            background-color: lightcyan;
+        }
+    </style>
 </head>
 <body>
-    <h1>Golden Hinde</h1>
-    <p>The Golden Hinde is the highest mountain on Vancouver Island, standing at 2195 meters. It is located in the Vancouver Island Ranges in Strathcona Provincial Park. The mountain is made of basalt, a type of volcanic rock.</p>
-    <p>The Golden Hinde is a popular destination for experienced climbers. It was first climbed in 1913. The mountain is near the center of Vancouver Island, close to Wolf River and Buttle Lake, about 25 kilometers east of Gold River.</p>
+    <nav class="navbar">
+        <ul class="navbarul">
+            <li class="navbarli"><a class="navbarlia" href="index.html">Homepage</a></li>
+            <li class="navbarli"><a class="navbarlia" href="summary.html">Summary</a></li>
+            <li class="navbarli"><a class="navbarlia" href="pacificrim.html">Pacific Rim</a></li>
+            <li class="navbarli"><a class="navbarlia" href="strathcona.html">Strathcona</a></li>
+            <li class="navbarli"><a class="navbarlia" href="carmanah.html">Carmanah Walbran</a></li>
+            <li class="navbarli"><a class="navbarlia" href="kennedylake.html">Kennedy Lake</a></li>
+            <li class="navbarli"><a class="navbarlia" href="goldenhinde.html">Golden Hinde</a></li>
+            <li class="navbarli"><a class="navbarlia" href="comoxglacier.html">Comox Glacier</a></li>
+        </ul>
+    </nav>
 
-    <h2>Name Origin</h2>
-    <p>The mountain is named after the Golden Hind, a ship used by Sir Francis Drake. A fur-trading captain saw the mountain at sunset and thought it looked like Drake's ship. The name was officially given in 1938, after being mentioned in a fur trader's log. Early climbers also called it "The Rooster's Comb" because of its shape.</p>
+    <div class="div1">
+        <h1>Golden Hinde</h1>
+        <p>The Golden Hinde is the highest mountain on Vancouver Island, standing at 2195 meters. It is located in the Vancouver Island Ranges in Strathcona Provincial Park. The mountain is made of basalt, a type of volcanic rock.</p>
+        <p>The Golden Hinde is a popular destination for experienced climbers. It was first climbed in 1913. The mountain is near the center of Vancouver Island, close to Wolf River and Buttle Lake, about 25 kilometers east of Gold River.</p>
+    </div>
+
+    <div class="div2">
+        <h2>Name Origin</h2>
+        <p>The mountain is named after the Golden Hind, a ship used by Sir Francis Drake. A fur-trading captain saw the mountain at sunset and thought it looked like Drake's ship. The name was officially given in 1938, after being mentioned in a fur trader's log. Early climbers also called it "The Rooster's Comb" because of its shape.</p>
+    </div>
+    
+    <img class="img1" src="img/vancouverisland8.jpg" alt="Golden Hinde">
+    <div class="clearfloat"></div>
+
+    <div class="bottom">  
+        All information comes from Wikipedia. Thank you for visiting!
+    </div>
 </body>
 </html>
