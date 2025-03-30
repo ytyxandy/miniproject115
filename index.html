@@ -13,23 +13,24 @@
         .div1{
             text-align: center;
             margin: 30px 0px;
+        }       
+        .div2{
+            margin: 0px 5%;
+        }
+        .div3{
+            display: flex;
         }
         .img1{
             width: 50%;
             border-radius: 20px;
             border: 3px dotted darkgreen;
-        }        
-        .div2{
-            margin: 0px 5%;
-        }
-        .div3{
-            width: 60%;
         }
         .img2{
             width: 30%;
-            margin: 30px 0px 0px 5%;
+            margin: 30px 0px 0px 3%;
             border-radius: 20px;
             border: 3px dotted darkgreen;
+            flex-shrink: 0;
         }
     </style>
 </head>
@@ -54,21 +55,21 @@
     </div>
 
     <div class="div2">
-        <p>Vancouver Island is a beautiful island on the west coast of Canada. It is surrounded by the Pacific Ocean. It has beautiful forests, mountains, rivers and ocean waters. The island is about 456km long and 100km wide. It is one of the largest islands in North America. <br> For more information: <a style="color: blue;" href="https://en.wikipedia.org/wiki/Vancouver_Island">Vancouver Island - Wikipedia</a> </p>
+        <p>Vancouver Island is a beautiful island on the west coast of Canada. It is surrounded by the Pacific Ocean. It has beautiful forests, mountains, rivers and ocean waters. The island is about 456km long and 100km wide. It is one of the largest islands in North America. <br> For more information: <a style="color: blue;" href="https://en.wikipedia.org/wiki/Vancouver_Island" target="_blank">Vancouver Island - Wikipedia</a> </p>
 
-        <div class="div3 floatleft">
-            <h2>Geography</h2>
-            <p>Vancouver Island is in the southwest of British Columbia, Canada. It is separated from the mainland by several water channels:</p>
-            <ul>
-                <li>Johnstone Strait and Queen Charlotte Strait (north and northeast)</li>
-                <li>Strait of Georgia (southeast)</li>
-                <li>Strait of Juan de Fuca (southwest, separates the island from the US)</li>
-            </ul>
-            <p>To the west of the island is the Pacific Ocean and to the north is Queen Charlotte Sound. These waters are part of the Salish Sea that also includes Puget Sound.</p>
+        <div class="div3">
+            <div>
+                <h2>Geography</h2>
+                <p>Vancouver Island is in the southwest of British Columbia, Canada. It is separated from the mainland by several water channels:</p>
+                <ul>
+                    <li>Johnstone Strait and Queen Charlotte Strait (north and northeast)</li>
+                    <li>Strait of Georgia (southeast)</li>
+                    <li>Strait of Juan de Fuca (southwest, separates the island from the US)</li>
+                </ul>
+                <p>To the west of the island is the Pacific Ocean and to the north is Queen Charlotte Sound. These waters are part of the Salish Sea that also includes Puget Sound.</p>
+            </div>
+            <img class="img2" src="img/vancouverisland2.jpg" alt="Map">
         </div>
-
-        <img class="img2" src="img/vancouverisland2.jpg" alt="Map">
-        <div class="clearfloat"></div>
 
         <h2>How was Vancouver Island formed?</h2>
         <p>Millions of years ago, a small ocean plate called the Kula Plate was under the Pacific Ocean. About 55 million years ago, part of this plate moved under North America and pushed up land. This process created mountains and made Vancouver Island part of the continent.</p>
@@ -88,6 +89,7 @@
         <h2>Mountains and landscapes</h2>
         <p>A mountain range called the Vancouver Island Ranges runs through the island. This creates a wet, rugged west coast and a drier, rolling east coast. The highest mountain is Golden Hinde (2195m), located in Strathcona Provincial Park in the center of the island. This park has the only glaciers on the island including the Comox Glacier.</p>
         <p>The west coast is rocky and mountainous, with many fjords, bays and inlets. The island's interior has many rivers and lakes. The largest lake is Kennedy Lake near Ucluelet.</p>
+        <p>Search parks at <a style="color: blue;" href="https://bcparks.ca/" target="_blank">BC Parks</a> </p>
 
         <h2>Rainforest</h2>
         <p>The west side of Vancouver Island has a rainforest with huge trees like western red cedar, Douglas fir and Sitka spruce. The south and east parts of the island have Douglas fir, arbutus trees and Garry oak. Some of the world's tallest Douglas fir trees were found here.</p>
@@ -109,6 +111,11 @@
         <h2>Ocean</h2>
         <p>The waters around Vancouver Island have many sea animals. Orcas (killer whales), humpback whales and grey whales live here. Orcas travel in different groups. Some stay in the north, some in the south and some move around. The island's rivers and lakes are great places to find trout, salmon and steelhead fish.</p>
         <p>Sea otters were once almost gone because of hunting. Between 1969 and 1972, some sea otters from Alaska were brought to Vancouver Island. Now there are over 3000 sea otters on the west coast of the island.</p><br>
+    </div>
+
+    <div class="bottom">  
+        All information comes from Wikipedia. Thank you for visiting!
+        <a href="#top" style="color: blue;">Go to Top</a>
     </div>
 </body>
 </html>
