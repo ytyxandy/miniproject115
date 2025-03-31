@@ -20,9 +20,6 @@ a:hover{
 a:active{
     color: grey;
 }
-.floatleft{
-    float: left;
-}
 .clearfloat{
     clear: both;
 }
