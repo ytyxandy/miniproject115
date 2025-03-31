@@ -2,17 +2,19 @@
 
 body{
     background-image: url('../img/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     /*if picture is not available*/
     background-color: lightblue;
     font-family: sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: cursive;
     color: darkgreen;
 }
 p{
-    /*indent at beginning of paragraph*/
+    /*indent the first line of paragraph*/
     text-indent: 2em;
 }
 a:link{
@@ -34,7 +36,7 @@ a:active{
     position: sticky;
     top: 20px;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: darkblue;
     /*navbar should be above everything*/
     z-index: 10;
@@ -48,18 +50,22 @@ a:active{
 }
 .navbarli{
     float: left;
-    margin: 10px;
+    margin: 8px;
 }
 .navbarlia{
     padding: 10px;
     color: white;
     text-decoration: none;
 }
+.ul{
+    list-style: circle;
+    font-style: italic;
+}
 .bottom{
     width: 100%;
     padding: 10px;
+    margin-top: 6%;
     border-radius: 20px;
     text-align: center;
     background-color: lightcyan;
 }
-
