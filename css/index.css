@@ -1,5 +1,6 @@
 body{
     background-image: url('../img/background1.jpg');
+    /*if picture is not available*/
     background-color: lightblue;
     font-family: sans-serif;
     font-size: large;
@@ -9,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
     color: darkgreen;
 }
 p{
+    /*indent at beginning of paragraph*/
     text-indent: 2em;
 }
 a:link{
@@ -31,17 +33,19 @@ a:active{
     top: 20px;
     border-radius: 25px;
     background-color: darkblue;
+    /*navbar should be above everything*/
     z-index: 10;
 }
 .navbarul{
     list-style: none;
+    /*we need to scroll on navbar if width is short*/
     overflow: auto;
     height: 40px;
     padding: 0px 20px;
 }
 .navbarli{
     float: left;
-    margin: 10px 10px;
+    margin: 10px;
 }
 .navbarlia{
     padding: 10px;
