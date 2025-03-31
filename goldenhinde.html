@@ -7,49 +7,35 @@
     <title>Golden Hinde</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <style type="text/css">
-        h1, h2{
+        h2{
             text-align: center;
+        }
+        p{
+            text-decoration: underline dotted;
+        }
+        .flexbox{
+            display: flex;
         }
         .div1{
-            position: absolute;
-            top: 15%;
-            left: 5%;
-            width: 30%;
-            padding: 15px;
-            border: 3px dotted darkgreen;
-            border-radius: 70px;
-            background-image: url('../img/background1.jpg');
-            background-color: lightblue;
+            padding: 1%;
+            margin: 2%;
+            border-radius: 20px;
+            flex-shrink: 1;
         }
         .div2{
-            position: absolute;
-            top: 28%;
-            right: 8%;
-            width: 20%;
-            padding: 15px;
-            border: 3px dotted darkgreen;
-            border-radius: 40px;
-            background-image: url('../img/background1.jpg');
-            background-color: lightblue;
+            padding: 1%;
+            margin: 2%;
+            border-radius: 20px;
+            flex-shrink: 1.1;
         }
         .img1{
-            position: absolute;
-            top: 13%;
-            left: 27%;
-            width: 45%;
+            width: 40%;
+            margin-top: 1%;
             border: 3px dotted darkgreen;
             border-radius: 20px;
-            z-index: -10;
-        }
-        .bottom{
-            position: fixed;
-            bottom: 0px;
-            width: 100%;
-            padding: 10px;
-            border-radius: 20px;
-            text-align: center;
-            background-color: lightcyan;
-            z-index: -1;
+            flex-shrink: 0;
+            /*cut the picture if needed to keep ratio*/
+            object-fit: cover;
         }
     </style>
 </head>
@@ -67,19 +53,20 @@
         </ul>
     </nav>
 
-    <div class="div1">
-        <h1>Golden Hinde</h1>
-        <p>The Golden Hinde is the highest mountain on Vancouver Island, standing at 2195 meters. It is located in the Vancouver Island Ranges in Strathcona Provincial Park. The mountain is made of basalt, a type of volcanic rock.</p>
-        <p>The Golden Hinde is a popular destination for experienced climbers. It was first climbed in 1913. The mountain is near the center of Vancouver Island, close to Wolf River and Buttle Lake, about 25 kilometers east of Gold River.</p>
-    </div>
+    <div class="flexbox">
+        <div class="div1">
+            <h2>Golden Hinde</h2>
+            <p>The Golden Hinde is the highest mountain on Vancouver Island, standing at 2195 meters. It is located in the Vancouver Island Ranges in Strathcona Provincial Park. The mountain is made of basalt, a type of volcanic rock.</p>
+            <p>The Golden Hinde is a popular destination for experienced climbers. It was first climbed in 1913. The mountain is near the center of Vancouver Island, close to Wolf River and Buttle Lake, about 25 kilometers east of Gold River.</p>
+        </div>
 
-    <div class="div2">
-        <h2>Name Origin</h2>
-        <p>The mountain is named after the Golden Hind, a ship used by Sir Francis Drake. A fur-trading captain saw the mountain at sunset and thought it looked like Drake's ship. The name was officially given in 1938, after being mentioned in a fur trader's log. Early climbers also called it "The Rooster's Comb" because of its shape.</p>
+        <img class="img1" src="img/vancouverisland8.jpg" alt="Golden Hinde">
+
+        <div class="div2">
+            <h2>Name Origin</h2>
+            <p>The mountain is named after the Golden Hind, a ship used by Sir Francis Drake. A fur-trading captain saw the mountain at sunset and thought it looked like Drake's ship. The name was officially given in 1938, after being mentioned in a fur trader's log. Early climbers also called it "The Rooster's Comb" because of its shape.</p>
+        </div>    
     </div>
-    
-    <img class="img1" src="img/vancouverisland8.jpg" alt="Golden Hinde">
-    <div class="clearfloat"></div>
 
     <div class="bottom">  
         All information comes from Wikipedia. Thank you for visiting!
