@@ -31,7 +31,7 @@ a:active{
     top: 20px;
     border-radius: 25px;
     background-color: darkblue;
-    z-index: 100;
+    z-index: 10;
 }
 .navbarul{
     list-style: none;
