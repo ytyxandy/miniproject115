@@ -58,6 +58,7 @@ a:active{
     text-decoration: none;
 }
 .ul{
+    margin: 2%;
     list-style: circle;
     font-style: italic;
 }
