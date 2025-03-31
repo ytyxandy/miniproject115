@@ -14,11 +14,25 @@
             margin: 2% auto;
             width: 90%;
             border-collapse: collapse;
-            border: 2px solid darkgreen;
+            border: 3px solid darkgreen;
         }
-        th, td{
+        th{
+            border: 2px double darkgreen;
+            padding: 1%;
+        }
+        td{
             border: 2px dotted darkgreen;
             padding: 1%;
+        }
+        /*below are style for rows of table*/
+        .toprows{
+            background-color: lightblue;
+        }
+        .oddrow{
+            background-color: lightgoldenrodyellow;
+        }
+        .evenrow{
+            background-color: lightblue;
         }
         .div1{
             margin: 2% 5%;
@@ -41,65 +55,65 @@
 
     <h2>Vancouver Island</h2>
     <table>
-        <tr>
+        <tr class="toprows">
             <th rowspan="2">Category</th>
             <th colspan="2">Summary</th>
         </tr>
-        <tr>
-            <td style="text-align: center;">Details</td>
-            <td style="text-align: center;">Additional</td>
+        <tr class="toprows">
+            <th style="font-weight: normal;">Details</td>
+            <th style="font-weight: normal;">Additional</td>
         </tr>
-        <tr>
+        <tr class="oddrow">
             <td>Location</td>
             <td>Vancouver Island is in the northeastern Pacific Ocean, separated from mainland British Columbia.</td>
             <td>Straits: Johnstone, Queen Charlotte, Georgia, Juan de Fuca.</td>
         </tr>
-        <tr>
+        <tr class="evenrow">
             <td>Size</td>
             <td>456km long, 100km wide, total area 32100km².</td>
             <td>Largest island on the west coasts of the Americas.</td>
         </tr>
-        <tr>
-            <td>Landforms</td>
+        <tr class="oddrow">
+            <td>Land</td>
             <td>Vancouver Island Ranges divide the island into a wet west coast and a drier east coast.</td>
             <td>Highest peak: Golden Hinde (2195m). Largest glacier: Comox Glacier.</td>
         </tr>
-        <tr>
+        <tr class="evenrow">
             <td>Water bodies</td>
             <td>Largest lake: Kennedy Lake. Major rivers: Somass, Nimpkish, Englishman, Cowichan.</td>
             <td>Fjords, bays and inlets make up much of the coastline.</td>
         </tr>
-        <tr>
+        <tr class="oddrow">
             <td>Climate</td>
             <td>West coast: wet temperate rainforest. East coast: drier, Mediterranean-like.</td>
             <td>Microclimates allow for vineyards, olive trees and even lemons.</td>
         </tr>
-        <tr>
-            <td>Temperature</td>
+        <tr class="evenrow">
+            <td>Temp.</td>
             <td>Winter: rarely below 0°C. Summer: 28-33°C.</td>
             <td>One of Canada's mildest climates.</td>
         </tr>
-        <tr>
+        <tr class="oddrow">
             <td>Snowfall</td>
             <td>Rare at low altitudes, but common in the mountains.</td>
             <td>Popular ski destination: Mount Washington.</td>
         </tr>
-        <tr>
+        <tr class="evenrow">
             <td>Forest</td>
             <td>Temperate rainforest with Douglas fir, cedar, Sitka spruce.</td>
             <td>Unique species: Arbutus, Garry oak (rare in Canada).</td>
         </tr>
-        <tr>
+        <tr class="oddrow">
             <td>Wildlife</td>
             <td>Black bears, Roosevelt elk, Vancouver Island wolves, cougars.</td>
             <td>Endemic: Vancouver Island marmot (endangered).</td>
         </tr>
-        <tr>
+        <tr class="evenrow">
             <td>Marine life</td>
             <td>Resident and transient orcas, humpback and grey whales.</td>
             <td>Other species: sea otters, seals, salmon, steelhead trout.</td>
         </tr>
-        <tr>
+        <tr class="oddrow">
             <td>Geology</td>
             <td>Part of the Ring of Fire, highly seismically active.</td>
             <td>Major earthquakes: 1946 (7.3M), 1700 Cascadia megathrust.</td>
